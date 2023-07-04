@@ -51,6 +51,7 @@ namespace Mobilitec_Services
             this.dgvClientesCadastros.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvClientesCadastros.Size = new System.Drawing.Size(797, 450);
             this.dgvClientesCadastros.TabIndex = 0;
+            this.dgvClientesCadastros.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClientesCadastros_CellContentClick);
             this.dgvClientesCadastros.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dgvClientesCadastros_MouseDoubleClick);
             // 
             // frmCadastrosClientes

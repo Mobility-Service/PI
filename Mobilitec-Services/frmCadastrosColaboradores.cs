@@ -66,5 +66,10 @@ namespace Mobilitec_Services
 
             }
         }
+
+        private void dgvColaboradoresCadastros_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
